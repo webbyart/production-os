@@ -1,0 +1,45 @@
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Logs
+*.log
+logs/
+
+# Dependencies
+vendor/
+node_modules/
+
+# Compiled files
+*.php~
+*.bak
+
+# Uploads
+assets/uploads/*
+!assets/uploads/.gitkeep
+assets/qrcode/*
+!assets/qrcode/.gitkeep
+
+# Cache
+cache/
+tmp/
+
+# Session
+sessions/
+tmp/
+
+# Windows
+Thumbs.db
+.DS_Store
+
+# XAMPP
+nbproject/
